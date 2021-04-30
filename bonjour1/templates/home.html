@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span data-design-type="Poster" data-api-key="YOUR-UNIQUE-API-KEY-HERE" 
+  class="canva-design-button" style="display: none;">Design on Canva</span>
+<script>
+  (function(c,a,n){
+    var w=c.createElement(a),s=c.getElementsByTagName(a)[0];
+    w.src=n;s.parentNode.insertBefore(w,s);
+  })(document,'script','https://sdk.canva.com/designbutton/v2/api.js');
+</script>
+{% endblock %}

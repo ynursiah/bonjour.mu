@@ -1,0 +1,69 @@
+* {
+	font-family: "Courier New", Courier, monospace;
+}
+input {
+	font-family: revert;
+	font-size: 15px;
+	width: 95%;
+	margin: 10px;
+	padding: 10px;
+	background: palevioletred;
+	outline: none;
+	border: 1px solid black;
+	letter-spacing: 2px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+img {
+	height: 300px;
+}
+label {
+	font-size: 20px;
+	color: black;
+	font-weight: 600;
+}
+.crimson {
+	background: rgb(22, 82, 117);
+}
+.yellowgreen {
+	background: yellowgreen;
+}
+.yellow {
+	background: yellow;
+}
+.blue {
+	background: cadetblue;
+}
+.purple {
+	background: palevioletred;
+}
+button {
+	border-radius: 9px;
+	padding: 10px;
+	outline: none;
+	font-weight: 900;
+	border: 2px solid black;
+	background: yellowgreen;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	cursor: pointer;
+	font-size: 15px;
+}
+.purple-btn:hover {
+	background: palevioletred;
+}
+.yellow-btn:hover {
+	background: yellow;
+}
+fieldset {
+	border: 2px solid black;
+}
+legend {
+	color: #ff6a00;
+
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
